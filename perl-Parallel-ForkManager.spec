@@ -1,5 +1,5 @@
 %define upstream_name    Parallel-ForkManager
-%define upstream_version 0.7.6
+%define upstream_version 0.7.9
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
