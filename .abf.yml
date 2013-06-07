@@ -1,2 +1,4 @@
+removed_sources:
+  Parallel-ForkManager-0.7.9.tar.gz: e0e0e38cd3ed76f491e269617740ce481651de76
 sources:
-  "Parallel-ForkManager-0.7.9.tar.gz": e0e0e38cd3ed76f491e269617740ce481651de76
+  Parallel-ForkManager-1.03.tar.gz: 012e41a9b2c7c28e2043f8c1b3f70f1ff3af460b

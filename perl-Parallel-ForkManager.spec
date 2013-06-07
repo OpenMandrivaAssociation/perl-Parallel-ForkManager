@@ -1,15 +1,14 @@
 %define upstream_name    Parallel-ForkManager
-%define upstream_version 0.7.9
-
+%define upstream_version 1.03
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.03
+Release:	1
 
 Summary:	Simple parallel processing fork manager
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/Parallel-ForkManager/
-Source0:	http://www.cpan.org/modules/by-module/Parallel/%{upstream_name}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Parallel/Parallel-ForkManager-1.03.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -20,7 +19,7 @@ where the number of processes to be forked off should be limited. Typical
 use is a downloader which will be retrieving hundreds/thousands of files.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -33,7 +32,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %makeinstall_std
 
 %files
-%doc Changes TODO
+%doc Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
 
@@ -58,3 +57,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Jun 21 2009 Oden Eriksson <oeriksson@mandriva.com> 0.7.5-1mdv2009.0
 - initial Mandriva package
+
