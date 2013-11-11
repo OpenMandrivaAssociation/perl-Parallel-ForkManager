@@ -1,14 +1,14 @@
 %define upstream_name    Parallel-ForkManager
-%define upstream_version 1.03
+%define upstream_version 1.05
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.03
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Simple parallel processing fork manager
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/Parallel-ForkManager/
-Source0:	http://www.cpan.org/modules/by-module/Parallel/Parallel-ForkManager-1.03.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Parallel/Parallel-ForkManager-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -57,4 +57,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Jun 21 2009 Oden Eriksson <oeriksson@mandriva.com> 0.7.5-1mdv2009.0
 - initial Mandriva package
+
 
