@@ -1,5 +1,6 @@
 removed_sources:
   Parallel-ForkManager-0.7.9.tar.gz: e0e0e38cd3ed76f491e269617740ce481651de76
   Parallel-ForkManager-1.03.tar.gz: 012e41a9b2c7c28e2043f8c1b3f70f1ff3af460b
-sources:
   Parallel-ForkManager-1.05.tar.gz: 3b3c375e04e034cedbc593b93fe789ae47603d5d
+sources:
+  Parallel-ForkManager-1.06.tar.gz: 39fa9183f039c78653594905e9d7ea72d58a19c6

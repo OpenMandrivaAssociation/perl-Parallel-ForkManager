@@ -1,5 +1,5 @@
 %define upstream_name    Parallel-ForkManager
-%define upstream_version 1.05
+%define upstream_version 1.06
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
@@ -57,5 +57,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Jun 21 2009 Oden Eriksson <oeriksson@mandriva.com> 0.7.5-1mdv2009.0
 - initial Mandriva package
+
 
 
