@@ -2,7 +2,7 @@
 %define upstream_version 1.06
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Simple parallel processing fork manager
 License:	GPL+ or Artistic
