@@ -7,7 +7,7 @@ Release:	3
 Summary:	Simple parallel processing fork manager
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/Parallel-ForkManager/
+Url:		https://search.cpan.org/dist/Parallel-ForkManager/
 Source0:	http://www.cpan.org/modules/by-module/Parallel/Parallel-ForkManager-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
