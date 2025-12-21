@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/Parallel-ForkManager/
 Source0:	http://www.cpan.org/modules/by-module/Parallel/Parallel-ForkManager-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
