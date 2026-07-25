@@ -1,14 +1,14 @@
 %define upstream_name    Parallel-ForkManager
-%define upstream_version 1.06
+%define upstream_version 2.04
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Simple parallel processing fork manager
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/Parallel-ForkManager/
-Source0:	http://www.cpan.org/modules/by-module/Parallel/Parallel-ForkManager-%{upstream_version}.tar.gz
+Url:		https://github.com/dluxhu/perl-parallel-forkmanager
+Source0:	https://cpan.metacpan.org/authors/id/Y/YA/YANICK/Parallel-ForkManager-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
