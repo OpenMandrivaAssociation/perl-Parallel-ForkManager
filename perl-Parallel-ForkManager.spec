@@ -1,14 +1,13 @@
 %define upstream_name    Parallel-ForkManager
-%define upstream_version 2.04
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	2.04
+Release:	2
 
 Summary:	Simple parallel processing fork manager
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/dluxhu/perl-parallel-forkmanager
-Source0:	https://cpan.metacpan.org/authors/id/Y/YA/YANICK/Parallel-ForkManager-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/Y/YA/YANICK/Parallel-ForkManager-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -20,7 +19,7 @@ where the number of processes to be forked off should be limited. Typical
 use is a downloader which will be retrieving hundreds/thousands of files.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
